@@ -63,9 +63,9 @@ Spring Security를 이용한 인증/인가 처리와 JPA를 활용한 데이터�
 - 회원가입 / 로그인 (소셜 로그인 포함)
 - 마이페이지: 이름/비밀번호 수정, 회원 탈퇴
 - 내가 작성한 게시글 목록 확인 및 삭제/수정 가능
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/718401a0-47fa-43a2-be79-ccdfb49a5d19" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/72ea203e-2c22-45d1-a253-9aa19bc5451d" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/8cc22e47-8912-43a6-b0ca-8fbbf32632da" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/718401a0-47fa-43a2-be79-ccdfb49a5d19" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/72ea203e-2c22-45d1-a253-9aa19bc5451d" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/8cc22e47-8912-43a6-b0ca-8fbbf32632da" />
 
 ### ✅ 교수 기능 + 추천 + 연구시 관심
 - 교수 등록 / 수정 / 삭제 (관리자 전용)
@@ -75,12 +75,12 @@ Spring Security를 이용한 인증/인가 처리와 JPA를 활용한 데이터�
   - 이미 추천한 경우 "추천을 취소하시겠습니까?" 확인창
 - 연구실 관심 추가: 중복 여부 확인 및 토글 처리
 - 모두 실시간 Ajax 처리 (화면 리로딩 없이 반영됨)
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/38ed675a-e300-42a3-85b7-a851745aace6" />
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/aa347816-e723-47a8-8f0c-43c443c72b30" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/12c82aab-85df-409d-9ef8-630c9b854d20" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/8bfd54f7-0829-43ce-9fd0-997d2101872d" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/d7a83600-8217-4008-98f4-06b03993e05d" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/2457bcd1-ce5d-4f6f-a649-df4ab2eee791" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/38ed675a-e300-42a3-85b7-a851745aace6" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/aa347816-e723-47a8-8f0c-43c443c72b30" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/12c82aab-85df-409d-9ef8-630c9b854d20" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/8bfd54f7-0829-43ce-9fd0-997d2101872d" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/d7a83600-8217-4008-98f4-06b03993e05d" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/2457bcd1-ce5d-4f6f-a649-df4ab2eee791" />
 
 ### ✅ 게시판 기능 + 댓글 기능(강의 평가)
 - 교수 선택 후 강의평 등록 (출석, 강의력, 성적 평가 포함)
@@ -88,24 +88,24 @@ Spring Security를 이용한 인증/인가 처리와 JPA를 활용한 데이터�
 - 제목 + 내용 기반 검색 기능 구현
 - 로그인한 사용자만 댓글 작성 가능
 - 실시간 비동기 댓글 등록/출력 (Ajax 활용)
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/6e07c69d-f41c-44a3-8778-e9e5b4c05fb4" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/ccda7d6b-7fa3-4b53-ba95-c0a04a0aa572" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/4c59438c-5907-4d38-b60c-59c1c12507b1" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/0ed9f4d4-3a3b-4f6d-a66a-316ce8110a05" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/dc31f2f0-e473-47bb-b916-4a18cf838783" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/d5a4d2b0-ac9b-4073-a21d-eef130fb8a90" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/6e07c69d-f41c-44a3-8778-e9e5b4c05fb4" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/ccda7d6b-7fa3-4b53-ba95-c0a04a0aa572" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/4c59438c-5907-4d38-b60c-59c1c12507b1" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/0ed9f4d4-3a3b-4f6d-a66a-316ce8110a05" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/dc31f2f0-e473-47bb-b916-4a18cf838783" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/d5a4d2b0-ac9b-4073-a21d-eef130fb8a90" />
 
 ### ✅ 관리자 전용
 - 모든 회원 조회 및 삭제
 - 모든 교수 조회, 수정, 삭제, 추가
 - 모든 연구실 조회, 수정, 삭제, 추가
 
-<img width="500" alt="스크린샷 2025-04-11 172241" src="https://github.com/user-attachments/assets/a6cc2402-aa7b-41b3-a4c5-16a5821ff352" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/80096104-d3ef-44d7-9a89-ae99f8da49b0" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/a94f6d20-a10e-4e29-a8ec-0a5dd8ba0c3e" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/2fa52ff3-b573-4d90-bdf8-63148acbae0b" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/3c61d520-a62a-4fc3-a25d-e92a12f8e71b" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/d6d9c1df-7cab-418e-b893-4a00fff54f18" />
+<img width="400" alt="스크린샷 2025-04-11 172241" src="https://github.com/user-attachments/assets/a6cc2402-aa7b-41b3-a4c5-16a5821ff352" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/80096104-d3ef-44d7-9a89-ae99f8da49b0" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/a94f6d20-a10e-4e29-a8ec-0a5dd8ba0c3e" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/2fa52ff3-b573-4d90-bdf8-63148acbae0b" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/3c61d520-a62a-4fc3-a25d-e92a12f8e71b" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/d6d9c1df-7cab-418e-b893-4a00fff54f18" />
 
 ---
 
