@@ -7,14 +7,21 @@
 학생들이 직접 교수님에 대한 평가를 남기고, 관심 있는 연구실 정보를 확인하며 지원할 수 있도록 도와줍니다.  
 Ajax를 활용한 추천/관심 기능과 마이페이지 기능까지 포함된, 실사용을 고려한 CRUD 기반 서비스입니다.
 
-## ⏱️ 개발 기간
-- 2024.02 ~ 2024.04
-
-## 👥 개발 인원
-- 교수님 백과사전.v1 - 팀 프로젝트
+## 👥 개발 인원 및 기간
+### 교수님 백과사전.v1 - 팀 프로젝트
+#### ⏱️ 개발 기간 - 2023.02.28 ~ 2023.06.25
+- 팀장-정지은(백엔드) : 회원가입, 관리자, 게시판 총괄개발(CRUD), 통합 및 관리, 발표, 기획
+- 팀원-진oo(프론트엔드) : 회원가입 및 로그인 CSS,문서 작성
+- 팀원-이oo(프론트엔드) : 게시판, 마이페이지, 교수 프로필 그 외 모든 CSS,PPT 작성, 기획, 문서 작성
+  
+### 교수님 백과사전.v2 - 개인 프로젝트
+#### ⏱️ 개발 기간 - 2024.10.03 ~ 2025.02.21
+####기능 추가
+- 회원 기능 - 스프링 스큐리티 기반 로그인 및 소셜 로그인 포함, 회원가입 시 중복 방지, 회원 탈퇴, 관리자 전용 페이지
+- 게시판 기능 - 게시글 검색, 게시글 작성 방식 수정
+- 교수 관리 기능 - 교수 등록, 수정, 삭제(관리자 권한), 교수 학력,경력,도서,논문 등 관리, 교수별 추천 기능, 추천 순위 실시간 표시
+- 연구실 관리 기능 - 연구실 등록(소개,본문,키워드 등), 수정, 삭제, 연구실 별 관심 기능
 - 
-- 교수님 백과사전.v2 - 개인 프로젝트
-
 ## ⚙️ 개발 환경
 - **Language** : Java 17
 - **Framework** : Spring Boot 3.2.5
@@ -24,48 +31,6 @@ Ajax를 활용한 추천/관심 기능과 마이페이지 기능까지 포함된
 - **Database** : MySQL
 - **IDE** : IntelliJ IDEA
 - **Version Control** : Git / GitHub
-
----
-
-## 📌 주요 기능
-
-### ✅ 회원 기능
-- 회원가입 / 로그인 (Form, 소셜 로그인 구현 완료)
-- 마이페이지: 이름/비밀번호 수정, 회원 탈퇴
-- 내가 작성한 게시글 목록 확인 및 삭제/수정 가능
-
-### ✅ 교수 기능
-- 교수 등록 / 수정 / 삭제 (관리자 전용)
-- 교수 상세 페이지에서 추천 수, 평균 평가 점수, 연구실 관심 수 확인 가능
-- 교수별 강의평 게시글 리스트 제공
-
-### ✅ 게시판 기능 (강의 평가)
-- 교수 선택 후 강의평 등록 (출석, 강의력, 성적 평가 포함)
-- 게시글 리스트 조회 / 상세보기 / 수정 / 삭제
-- 제목 + 내용 기반 검색 기능 구현
-
-### ✅ 댓글 기능
-- 로그인한 사용자만 댓글 작성 가능
-- 실시간 비동기 댓글 등록/출력 (Ajax 활용)
-
-### ✅ 추천 / 관심 기능
-- 교수 추천: 1인 1추천, 중복 추천 방지
-  - 이미 추천한 경우 "추천을 취소하시겠습니까?" 확인창
-- 연구실 관심 추가: 중복 여부 확인 및 토글 처리
-- 모두 실시간 Ajax 처리 (화면 리로딩 없이 반영됨)
-
----
-
-## 🎥 시연 이미지 / 영상
-
-- 교수 상세 페이지 + 추천 기능  
-  ![img1](https://github.com/user-attachments/assets/ed0c4415-0926-495c-b974-6acd7ce6f91a)
-
-- 강의평 작성 및 검색  
-  ![img2](https://github.com/user-attachments/assets/bb8843db-6894-4a6e-a24d-f7dc4d379cf1)
-
-- 마이페이지 / 내가 쓴 글 관리  
-  ![img3](https://github.com/user-attachments/assets/f2339f48-8423-4329-9057-e429be7791f0)
 
 ---
 
@@ -81,6 +46,58 @@ Ajax를 활용한 추천/관심 기능과 마이페이지 기능까지 포함된
 
 ---
 
+## 📌 주요 기능 / 시연 이미지
+
+### ✅ 회원 기능
+- 회원가입 / 로그인 (소셜 로그인 포함)
+- 마이페이지: 이름/비밀번호 수정, 회원 탈퇴
+- 내가 작성한 게시글 목록 확인 및 삭제/수정 가능
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/718401a0-47fa-43a2-be79-ccdfb49a5d19" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/72ea203e-2c22-45d1-a253-9aa19bc5451d" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/8cc22e47-8912-43a6-b0ca-8fbbf32632da" />
+
+### ✅ 교수 기능 + 추천 + 연구시 관심
+- 교수 등록 / 수정 / 삭제 (관리자 전용)
+- 교수 상세 페이지에서 추천 수, 평균 평가 점수, 연구실 관심 수 확인 가능
+- 교수별 강의평 게시글 리스트 제공
+- - 교수 추천: 1인 1추천, 중복 추천 방지
+  - 이미 추천한 경우 "추천을 취소하시겠습니까?" 확인창
+- 연구실 관심 추가: 중복 여부 확인 및 토글 처리
+- 모두 실시간 Ajax 처리 (화면 리로딩 없이 반영됨)
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/38ed675a-e300-42a3-85b7-a851745aace6" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/aa347816-e723-47a8-8f0c-43c443c72b30" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/12c82aab-85df-409d-9ef8-630c9b854d20" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/8bfd54f7-0829-43ce-9fd0-997d2101872d" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/d7a83600-8217-4008-98f4-06b03993e05d" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/2457bcd1-ce5d-4f6f-a649-df4ab2eee791" />
+
+### ✅ 게시판 기능 + 댓글 기능(강의 평가)
+- 교수 선택 후 강의평 등록 (출석, 강의력, 성적 평가 포함)
+- 게시글 리스트 조회 / 상세보기 / 수정 / 삭제
+- 제목 + 내용 기반 검색 기능 구현
+- 로그인한 사용자만 댓글 작성 가능
+- 실시간 비동기 댓글 등록/출력 (Ajax 활용)
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/6e07c69d-f41c-44a3-8778-e9e5b4c05fb4" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/ccda7d6b-7fa3-4b53-ba95-c0a04a0aa572" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/4c59438c-5907-4d38-b60c-59c1c12507b1" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/0ed9f4d4-3a3b-4f6d-a66a-316ce8110a05" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/dc31f2f0-e473-47bb-b916-4a18cf838783" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/d5a4d2b0-ac9b-4073-a21d-eef130fb8a90" />
+
+### ✅ 관리자 전용
+- 모든 회원 조회 및 삭제
+- 모든 교수 조회, 수정, 삭제, 추가
+- 모든 연구실 조회, 수정, 삭제, 추가
+
+<img width="400" alt="스크린샷 2025-04-11 172241" src="https://github.com/user-attachments/assets/a6cc2402-aa7b-41b3-a4c5-16a5821ff352" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/80096104-d3ef-44d7-9a89-ae99f8da49b0" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/a94f6d20-a10e-4e29-a8ec-0a5dd8ba0c3e" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/2fa52ff3-b573-4d90-bdf8-63148acbae0b" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/3c61d520-a62a-4fc3-a25d-e92a12f8e71b" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/d6d9c1df-7cab-418e-b893-4a00fff54f18" />
+
+---
+
 ## 📌 향후 개선 예정 사항
 
 - 관리자 기능 고도화: 교수 통계 관리 및 게시글 모니터링
@@ -90,4 +107,4 @@ Ajax를 활용한 추천/관심 기능과 마이페이지 기능까지 포함된
 ---
 
 > 📬 문의: heyfer6867@gmail.com  
-> 💼 포트폴리오: [노션 링크 삽입](https://notion.so/yourportfolio)  
+> 💼 포트폴리오: [노션 링크](https://unique-income-725.notion.site/13bdee6a325180cfafb8da847116b416?v=fd4325b653464aff8d04999ec724b9c1&pvs=4)  
