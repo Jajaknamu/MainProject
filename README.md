@@ -75,8 +75,8 @@ Spring Security를 이용한 인증/인가 처리와 JPA를 활용한 데이터�
   - 이미 추천한 경우 "추천을 취소하시겠습니까?" 확인창
 - 연구실 관심 추가: 중복 여부 확인 및 토글 처리
 - 모두 실시간 Ajax 처리 (화면 리로딩 없이 반영됨)
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/38ed675a-e300-42a3-85b7-a851745aace6" />
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/aa347816-e723-47a8-8f0c-43c443c72b30" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/38ed675a-e300-42a3-85b7-a851745aace6" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/aa347816-e723-47a8-8f0c-43c443c72b30" />
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/12c82aab-85df-409d-9ef8-630c9b854d20" />
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/8bfd54f7-0829-43ce-9fd0-997d2101872d" />
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/d7a83600-8217-4008-98f4-06b03993e05d" />
